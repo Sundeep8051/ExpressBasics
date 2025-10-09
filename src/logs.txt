@@ -1,0 +1,6 @@
+[1760022668702]: GET - Path: /books
+[1760022673281]: POST - Path: /books/book
+[1760022675073]: GET - Path: /books
+[1760022678374]: GET - Path: /books/3
+[1760022680468]: DELETE - Path: /books/3
+[1760022682011]: GET - Path: /books

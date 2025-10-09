@@ -1,4 +1,4 @@
-import books from "../Db/booksDb.js";
+import books from "../db/booksDb.js";
 
 export const GetBooks = (req, res) => {
   return res.status(200).json(books);

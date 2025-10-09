@@ -1,0 +1,16 @@
+@baseUrl = http://localhost:3000
+
+GET {{baseUrl}}/books
+
+###
+POST {{baseUrl}}/books/book
+Content-Type: application/json
+
+{"title": "Book 3", "author": "Author 3"}
+
+###
+GET {{baseUrl}}/books/3
+
+###
+DELETE {{baseUrl}}/books/3
+
